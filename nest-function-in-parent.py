@@ -88,13 +88,18 @@
 # A lambda function can take any number of arguments, but can only have one expression.
 # Wraps up process
 
-full_name = lambda first, last: f'{first} {last}'
+# full_name = lambda first, last: f'{first} {last}'
 
-def greeting(name):
-    print(f'Hi there {name}!')
+# def greeting(name):
+#     print(f'Hi there {name}!')
 
-greeting(full_name('Zac', 'Invergo'))
+# greeting(full_name('Zac', 'Invergo'))
 
 # print(full_name('Zac', 'Invergo'))
 
+numbers = lambda num_one, num_two: {num_one} + {num_two}
 
+def sum(result):
+    print({num_one} + {num_two})
+
+sum(numbers(num_one(5) + num_two(7)
