@@ -75,10 +75,10 @@
 
 # *******PEMDAS********
 
-def pemdas_ex(num_one, num_two, num_three, num_four, num_five, num_six):
-        print((num_two * (num_four - num_one) / num_five + num_six) ** num_three)
+# def pemdas_ex(num_one, num_two, num_three, num_four, num_five, num_six):
+#         print((num_two * (num_four - num_one) / num_five + num_six) ** num_three)
 
-pemdas_ex(num_one = 2, num_two = 2, num_three = 2, num_four = 6, num_five = 8, num_six = 10)
+# pemdas_ex(num_one = 2, num_two = 2, num_three = 2, num_four = 6, num_five = 8, num_six = 10)
 # pemdas_ex(2, 2, 2, 6, 8, 10)
 
 
